@@ -13,5 +13,5 @@ function takeANumber(line, name) {
   var katzDeliLine = [];
   katzDeliLine[name];
   line.length;
-  return "Welcome, " + name + "." + " You are number " + line.length + " in line."
+  return "Welcome, " + name + "." + " You are number " + line.length + 1 + " in line."
 }
