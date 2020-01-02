@@ -12,6 +12,6 @@ function takeANumber(line, name) {
 
   var katzDeliLine = [];
   katzDeliLine[name];
-  line.length;
-  return "Welcome, " + name + "." + " You are number " + line.length + 1 + " in line."
+  var int = parseInt(line.length);
+  return "Welcome, " + name + "." + " You are number " + int + 1 + " in line."
 }
