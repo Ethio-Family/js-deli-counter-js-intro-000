@@ -37,11 +37,11 @@ function currentLine(line) {
 
   var x = " ";
   var int = parseInt(line.length);
-  while(int < 0) {
+  while(int > 0) {
     x += line[int - 1];
     --int;
   }
 
-  return "The line is currently: " + x; 
+  return "The line is currently: " + x;
 
 }
