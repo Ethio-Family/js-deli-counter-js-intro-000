@@ -39,7 +39,7 @@ function currentLine(line) {
   var i = 0;
   var int = parseInt(line.length);
   while(i < int) {
-    x +=  i+1 + "." line[i] + ", ";
+    x +=  i+1 + "."  + line[i] + ", ";
     ++i;
   }
 
