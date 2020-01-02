@@ -10,6 +10,7 @@
 
 function takeANumber(line, name) {
 
+  katzDeli[name];
   line = line + 1;
   return "Welcome, ${name}. You are number ${line} in line."
 }
