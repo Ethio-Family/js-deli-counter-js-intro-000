@@ -11,6 +11,6 @@
 function takeANumber(line, name) {
 
   line.push(name);
-  var int = parseInt(line.length) + 1;
+  var int = parseInt(line.length);
   return "Welcome, " + name + "." + " You are number " + int + " in line."
 }
