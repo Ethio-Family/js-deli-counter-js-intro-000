@@ -10,7 +10,7 @@
 
 function takeANumber(line, name) {
 
-  line[name];
+  line.push(name);
   var int = parseInt(line.length) + 1;
   return "Welcome, " + name + "." + " You are number " + int + " in line."
 }
