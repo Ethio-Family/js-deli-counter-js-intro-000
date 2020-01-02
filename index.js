@@ -10,7 +10,8 @@
 
 function takeANumber(line, name) {
 
-  katzDeli[name];
+  var katzDeliLine = [];
+  katzDeliLine[name];
   line = line + 1;
   return "Welcome, ${name}. You are number ${line} in line."
 }
