@@ -39,7 +39,7 @@ function currentLine(line) {
   var i = 0;
   var int = parseInt(line.length);
   while(i < int) {
-    x += line[int - 1];
+    x += line[i];
     ++i;
   }
 
