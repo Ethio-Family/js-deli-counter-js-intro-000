@@ -43,6 +43,7 @@ function currentLine(line) {
     ++i;
   }
 
+  x += i+1 + ". "  + line[i];
   return "The line is currently:" + x;
 
 }
